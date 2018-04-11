@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55234B5614203AB800D10B8C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55234B5514203AB800D10B8C /* Carbon.framework */; };
+		5537D76E19CFD00600DE8117 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5537D76D19CFD00600DE8117 /* Images.xcassets */; };
+		5563391A158AB033007FE0A6 /* MouseCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55633919158AB033007FE0A6 /* MouseCursor.m */; };
+		556356C0158AC929005FD42E /* Aperture.m in Sources */ = {isa = PBXBuildFile; fileRef = 556356BF158AC929005FD42E /* Aperture.m */; };
+		556DC075207E04BF0076AE7B /* CaptureAndAverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 556DC074207E04BF0076AE7B /* CaptureAndAverage.m */; };
+		558444B213D3C9CE006C6F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558444A313D3C9CE006C6F51 /* AppDelegate.m */; };
+		558444B513D3C9CE006C6F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558444A813D3C9CE006C6F51 /* main.m */; };
+		558444B613D3C9CE006C6F51 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 558444AA13D3C9CE006C6F51 /* Preferences.m */; };
+		558444B813D3C9CE006C6F51 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 558444AF13D3C9CE006C6F51 /* PreviewView.m */; };
+		558444CB13D3CA3E006C6F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558444C713D3CA3E006C6F51 /* InfoPlist.strings */; };
+		558444CC13D3CA3E006C6F51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558444C913D3CA3E006C6F51 /* MainMenu.xib */; };
+		558444D313D41184006C6F51 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558444D213D41184006C6F51 /* ApplicationServices.framework */; };
+		55E67D8413CFC3000040DFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E67D8313CFC3000040DFDE /* Cocoa.framework */; };
+		55E67DC713D38E950040DFDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E67DC613D38E950040DFDE /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55234B5514203AB800D10B8C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5537D76D19CFD00600DE8117 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		55633918158AB033007FE0A6 /* MouseCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MouseCursor.h; path = Source/MouseCursor.h; sourceTree = "<group>"; };
+		55633919158AB033007FE0A6 /* MouseCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MouseCursor.m; path = Source/MouseCursor.m; sourceTree = "<group>"; };
+		556356BE158AC929005FD42E /* Aperture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aperture.h; path = Source/Aperture.h; sourceTree = "<group>"; };
+		556356BF158AC929005FD42E /* Aperture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aperture.m; path = Source/Aperture.m; sourceTree = "<group>"; };
+		556DC073207E04BF0076AE7B /* CaptureAndAverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CaptureAndAverage.h; path = Source/CaptureAndAverage.h; sourceTree = "<group>"; };
+		556DC074207E04BF0076AE7B /* CaptureAndAverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CaptureAndAverage.m; path = Source/CaptureAndAverage.m; sourceTree = "<group>"; };
+		558444A213D3C9CE006C6F51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = "<group>"; };
+		558444A313D3C9CE006C6F51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/AppDelegate.m; sourceTree = "<group>"; };
+		558444A813D3C9CE006C6F51 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
+		558444A913D3C9CE006C6F51 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Preferences.h; path = Source/Preferences.h; sourceTree = "<group>"; };
+		558444AA13D3C9CE006C6F51 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preferences.m; path = Source/Preferences.m; sourceTree = "<group>"; };
+		558444AD13D3C9CE006C6F51 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Source/Prefix.pch; sourceTree = "<group>"; };
+		558444AE13D3C9CE006C6F51 /* PreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreviewView.h; path = Source/PreviewView.h; sourceTree = "<group>"; };
+		558444AF13D3C9CE006C6F51 /* PreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreviewView.m; path = Source/PreviewView.m; sourceTree = "<group>"; };
+		558444BE13D3CA27006C6F51 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		558444C813D3CA3E006C6F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		558444CA13D3CA3E006C6F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Resources/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		558444D213D41184006C6F51 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		55E67D7F13CFC3000040DFDE /* Lab Color Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab Color Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E67D8313CFC3000040DFDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55E67D8613CFC3000040DFDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55E67D8813CFC3000040DFDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E67DC613D38E950040DFDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E67D7C13CFC3000040DFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55234B5614203AB800D10B8C /* Carbon.framework in Frameworks */,
+				558444D313D41184006C6F51 /* ApplicationServices.framework in Frameworks */,
+				55E67DC713D38E950040DFDE /* QuartzCore.framework in Frameworks */,
+				55E67D8413CFC3000040DFDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556DC076207E15780076AE7B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				558444AD13D3C9CE006C6F51 /* Prefix.pch */,
+				558444A813D3C9CE006C6F51 /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		5584449E13D3C8B4006C6F51 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				556DC073207E04BF0076AE7B /* CaptureAndAverage.h */,
+				556DC074207E04BF0076AE7B /* CaptureAndAverage.m */,
+				558444A113D3C8F0006C6F51 /* Model */,
+				5584449F13D3C8BA006C6F51 /* Views */,
+				558444A013D3C8DA006C6F51 /* Controller */,
+				556DC076207E15780076AE7B /* Other */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5584449F13D3C8BA006C6F51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558444AE13D3C9CE006C6F51 /* PreviewView.h */,
+				558444AF13D3C9CE006C6F51 /* PreviewView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		558444A013D3C8DA006C6F51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				558444A213D3C9CE006C6F51 /* AppDelegate.h */,
+				558444A313D3C9CE006C6F51 /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		558444A113D3C8F0006C6F51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				556356BE158AC929005FD42E /* Aperture.h */,
+				556356BF158AC929005FD42E /* Aperture.m */,
+				55633918158AB033007FE0A6 /* MouseCursor.h */,
+				55633919158AB033007FE0A6 /* MouseCursor.m */,
+				558444A913D3C9CE006C6F51 /* Preferences.h */,
+				558444AA13D3C9CE006C6F51 /* Preferences.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		55E67D7413CFC3000040DFDE = {
+			isa = PBXGroup;
+			children = (
+				5584449E13D3C8B4006C6F51 /* Source */,
+				55E67D8913CFC3000040DFDE /* Resources */,
+				55E67D8213CFC3000040DFDE /* Frameworks */,
+				55E67D8013CFC3000040DFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E67D8013CFC3000040DFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E67D7F13CFC3000040DFDE /* Lab Color Meter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E67D8213CFC3000040DFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55234B5514203AB800D10B8C /* Carbon.framework */,
+				558444D213D41184006C6F51 /* ApplicationServices.framework */,
+				55E67DC613D38E950040DFDE /* QuartzCore.framework */,
+				55E67D8313CFC3000040DFDE /* Cocoa.framework */,
+				55E67D8513CFC3000040DFDE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E67D8513CFC3000040DFDE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E67D8613CFC3000040DFDE /* AppKit.framework */,
+				55E67D8813CFC3000040DFDE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55E67D8913CFC3000040DFDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5537D76D19CFD00600DE8117 /* Images.xcassets */,
+				558444C713D3CA3E006C6F51 /* InfoPlist.strings */,
+				558444BE13D3CA27006C6F51 /* Info.plist */,
+				558444C913D3CA3E006C6F51 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E67D7E13CFC3000040DFDE /* Lab Color Meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E67D9D13CFC3000040DFDE /* Build configuration list for PBXNativeTarget "Lab Color Meter" */;
+			buildPhases = (
+				552EDB851BA513FD0031CB4E /* run rchook */,
+				55E67D7B13CFC3000040DFDE /* Sources */,
+				55E67D7C13CFC3000040DFDE /* Frameworks */,
+				55E67D7D13CFC3000040DFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab Color Meter";
+			productName = ColorMeter;
+			productReference = 55E67D7F13CFC3000040DFDE /* Lab Color Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E67D7613CFC3000040DFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					55E67D7E13CFC3000040DFDE = {
+						DevelopmentTeam = 3DF63HD22U;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 55E67D7913CFC3000040DFDE /* Build configuration list for PBXProject "Lab Color Meter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55E67D7413CFC3000040DFDE;
+			productRefGroup = 55E67D8013CFC3000040DFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E67D7E13CFC3000040DFDE /* Lab Color Meter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E67D7D13CFC3000040DFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558444CB13D3CA3E006C6F51 /* InfoPlist.strings in Resources */,
+				558444CC13D3CA3E006C6F51 /* MainMenu.xib in Resources */,
+				5537D76E19CFD00600DE8117 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		552EDB851BA513FD0031CB4E /* run rchook */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "run rchook";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "which rcbump\nif [ $? -eq 0 ]; then\n    rcbump build\n    exit $?\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E67D7B13CFC3000040DFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558444B213D3C9CE006C6F51 /* AppDelegate.m in Sources */,
+				558444B513D3C9CE006C6F51 /* main.m in Sources */,
+				558444B613D3C9CE006C6F51 /* Preferences.m in Sources */,
+				558444B813D3C9CE006C6F51 /* PreviewView.m in Sources */,
+				5563391A158AB033007FE0A6 /* MouseCursor.m in Sources */,
+				556DC075207E04BF0076AE7B /* CaptureAndAverage.m in Sources */,
+				556356C0158AC929005FD42E /* Aperture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		558444C713D3CA3E006C6F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558444C813D3CA3E006C6F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		558444C913D3CA3E006C6F51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558444CA13D3CA3E006C6F51 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E67D9B13CFC3000040DFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 115;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Lab Color Meter";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55E67D9C13CFC3000040DFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 115;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "Lab Color Meter";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55E67D9E13CFC3000040DFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DF63HD22U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iccir.LabColorMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E67D9F13CFC3000040DFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DF63HD22U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iccir.LabColorMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E67D7913CFC3000040DFDE /* Build configuration list for PBXProject "Lab Color Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E67D9B13CFC3000040DFDE /* Debug */,
+				55E67D9C13CFC3000040DFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E67D9D13CFC3000040DFDE /* Build configuration list for PBXNativeTarget "Lab Color Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E67D9E13CFC3000040DFDE /* Debug */,
+				55E67D9F13CFC3000040DFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E67D7613CFC3000040DFDE /* Project object */;
+}
